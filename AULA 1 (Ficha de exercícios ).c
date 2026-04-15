@@ -29,3 +29,45 @@ int main(){                            //Primeira questão (valor gasto na conta
  
  return 0;
  }
+
+#include <stdio.h>  //Terceira questão letra B
+
+int main()
+{
+	float preco_unit_fita, preco_unit_com_atraso, fitas_atrasadas, fitas_alugadas_mes, val_ganho_mes_multa;
+	
+	printf("\n Digite o valor de fitas alugadas por mes: \n");
+	scanf("%f", &fitas_alugadas_mes);
+	
+	fitas_atrasadas = fitas_alugadas_mes/10 ; 
+	
+	printf("\n Digite o valor unitario por fita: \n");
+	scanf("%f", &preco_unit_fita);
+	
+	preco_unit_com_atraso = preco_unit_fita + preco_unit_fita/10;
+	
+	val_ganho_mes_multa = preco_unit_com_atraso*fitas_atrasadas;
+	
+	printf("O valor total ganho com fitas atrasadas eh: %f", val_ganho_mes_multa);
+	
+	return 0;
+}
+
+
+#include <stdio.h>  //Terceira questão letra A
+
+int main()
+{
+	float quant_fitas_mes, fitas_alugadas, fat_anual, preco_fita;
+	
+	printf("Digite a quantidade de fitas na loja: ");
+	scanf("%f", &quant_fitas_mes);
+	
+ 	fitas_alugadas = quant_fitas_mes/3; 
+ 	
+ 	fat_anual= fitas_alugadas*12;
+ 	
+ 	printf("O faturamento anual: %f", fat_anual);
+ 	
+	return 0;
+}
