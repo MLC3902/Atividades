@@ -30,9 +30,8 @@ int main(){                            //Primeira questão (valor gasto na conta
  return 0;
  }
 
-#include <stdio.h>  //Terceira questão letra B
 
-int main()
+int main()   //Terceira questão letra B
 {
 	float preco_unit_fita, preco_unit_com_atraso, fitas_atrasadas, fitas_alugadas_mes, val_ganho_mes_multa;
 	
@@ -54,9 +53,7 @@ int main()
 }
 
 
-#include <stdio.h>  //Terceira questão letra A
-
-int main()
+int main()       //Terceira questão letra A
 {
 	float quant_fitas_mes, fitas_alugadas, fat_anual, preco_fita;
 	
@@ -72,9 +69,9 @@ int main()
 	return 0;
 }
 
-#include <stdio.h>  //Terceira questão letra C
 
-int main()
+
+int main()                   //Terceira questão letra C
 {
 	float quant_fitas_total_inicio, fitas_recolocadas, fitas_estragadas, fitas_ano_todo;
 	
